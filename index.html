@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spill Bill</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/0e1ba3dc39.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <p> BILL<br>
+            <p>SPILL</p>
+            </p>
+
+        </div>
+
+        <div class="outerbox">
+            <div class="left">
+                <div>
+                    <p>Bill</p>
+                    <input class="ip" type="number" value="0">
+                </div>
+                <div class="tipBtns">
+                    <p>select tip %</p>
+                    <div>
+                        <button onclick="fivePercent()">5%</button>
+                        <button onclick="tenPercent()">10%</button>
+                        <button onclick="fifteenPercent()">15%</button>
+                    </div>
+                    <div>
+                        <button onclick="twentyFivePercent()">25%</button>
+                        <button onclick="fiftyPercent()">50%</button>
+                        <button onclick="seventyFivePercent()">75%</button>
+                    </div>
+                </div>
+                <div class="pplDiv">
+                    <p>Number of people</p>
+                    <div class="ppl"><i class="fa-solid fa-user"></i><button onclick="inc()"
+                            class="pplBtn pplID ">+</button><span class="numOfppl">0</span><button onclick="dec()"
+                            class="dec pplID">-</button></div>
+                </div>
+                <button onclick="generateBill()" class="bill" id="bill">Generate Bill</button>
+            </div>
+
+            <div class="right">
+                <div class="rDiv">
+                    <div class="tip">
+                        <p class="p">Tip Amount</p>
+                        <p class="p">/ person</p>
+                    </div>
+                    <div class="amount">
+                        <p class="tipAmount">0.00</p>
+                    </div>
+                </div>
+
+                <div class="rDiv">
+                    <div class="tip">
+                        <p class="p">Total Amout</p>
+                        <p class="p">/ person</p>
+                    </div>
+                    <div class="amount">
+                        <p class="totalAmount">0.00</p>
+                    </div>
+                </div>
+                <button onclick="reset()" class="reset">RESET</button>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

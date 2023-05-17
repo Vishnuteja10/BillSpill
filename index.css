@@ -1,0 +1,140 @@
+body{
+position: relative;
+width: 1280px;
+height: 910px;
+background: #D6BCFF;
+}
+.main{
+   margin-top: 10%;
+   margin-left: 30%;
+}
+.header{
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.header p{
+    letter-spacing: 10px;
+    color: #6F3CFF;
+}
+i{
+    margin-left: 5px;
+}
+.outerbox{   
+position: absolute;
+width: 818px;
+height: 494px;
+top: 10%;
+background: #FFFFFF;
+box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+border-radius: 21px;
+display: flex;
+}
+
+.ip{
+width: 350px;
+height: 30px;
+font-size: 20px;
+background: rgba(182, 172, 196, 0.53);
+border-radius: 3px;
+}
+
+.left{
+    margin: 5%;
+  width: 40%;
+}
+
+
+button{
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    color: #E9DBFF;
+    background: #9C60FF;
+    border-radius: 4px;
+}
+
+.tipBtns{
+    margin-top: 20px;
+}
+
+.pplDiv{
+    margin-top: 30px;
+}
+.ppl{
+    height: 40px;
+    background: rgba(182, 172, 196, 0.53);
+    border-radius: 3px;
+}
+
+.pplBtn{
+    margin-top: 0px;
+    margin-left: 190px;
+}
+
+.pplID{
+    background: #FBFAFB;
+    color: black;
+    width: 40px;
+}
+.bill{
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    color: black;
+    background: #FBFAFB;
+}
+
+.enableBill{
+    background-color:  #9C60FF;
+    color: white;
+}
+
+.right{
+    margin: 5%;
+    margin-top: 9%px;
+    padding: 10px;
+    height: 350px;
+  width: 50%;
+  background: #9C60FF;
+border-radius: 11px;
+}
+
+.rDiv{
+    display: flex;
+}
+
+.tip{
+    width: 50%;
+}
+
+.amount{
+    width: 50%;
+    margin-left: 120px;
+}
+
+.p{
+    color: #C39FFF;
+}
+
+.tipAmount{
+    font-size: 30px;
+    color: #C39FFF;
+}
+
+.totalAmount{
+    font-size: 30px;
+    color: #C39FFF;
+}
+
+.reset{
+    margin-top: 120px;
+    width: 300px;
+    height: 30px;
+    color: wheat;
+    background: #9C60FF;
+}
+.enableReset{
+    background: #FBFAFB;
+    color:black;
+}
